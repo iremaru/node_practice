@@ -1,0 +1,15 @@
+{
+  "name": "node_pruebas",
+  "version": "1.0.0",
+  "description": "Pruebas de node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iremaru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
