@@ -57,6 +57,12 @@ app.get("/about", (req, res) => {
         tituloPagina: "About",
     });   
 });
+
+app.get("/projects", (req, res) => {
+    res.render("projects.hbs", {
+        tituloPagina: "Projects"
+    })
+})
  
 app.listen(port, process.env.IP, () => console.log(`El servidor se está ejecutando en el puerto ${port}.`));
 
